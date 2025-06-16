@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이민주 포트폴리오</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8edf2 100%);
+            font-family: 'Noto Sans KR', sans-serif;
+            position: relative;
+        }
+        .top-border {
+            height: 12px;
+            background: linear-gradient(90deg, #e63946 0%, #c1121f 100%);
+        }
+        .title {
+            font-weight: 900;
+            color: #1d3557;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .subtitle {
+            color: #457b9d;
+        }
+        .highlight {
+            color: #e63946;
+        }
+        .fire-icon {
+            color: #e63946;
+            animation: flicker 2s infinite alternate;
+        }
+        @keyframes flicker {
+            0% { opacity: 0.8; transform: scale(0.98); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        .bottom-decoration {
+            height: 60px;
+            background-color: #1d3557;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .profile-img {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .badge {
+            background-color: #e63946;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .animated-box {
+            animation: fadeInUp 1.5s ease-out;
+        }
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="top-border"></div>
+        
+        <div class="flex flex-col justify-center items-center h-full p-10 animated-box">
+            <div class="text-center mb-8">
+                <i class="fas fa-fire fa-4x fire-icon mb-6"></i>
+                <h1 class="title text-6xl mb-4">이민주의 <span class="highlight">포트폴리오</span></h1>
+                <h2 class="subtitle text-2xl tracking-wide">건양대학교 재난안전소방학과</h2>
+                <span class="badge mt-4">소방공무원을 꿈꾸는 안전 전문가</span>
+            </div>
+            
+            <div class="flex justify-center items-center space-x-12 mt-12">
+                <div class="flex flex-col items-center">
+                    <div class="w-64 h-64 bg-white rounded-full overflow-hidden border-4 border-white profile-img flex items-center justify-center">
+                        <i class="fas fa-user-circle text-gray-300 text-9xl"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-lg max-w-md">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800">인적사항</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-user mr-2 text-red-600"></i>
+                            <span>이름: <strong>이민주</strong></span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-graduation-cap mr-2 text-red-600"></i>
+                            <span>학교: <strong>건양대학교</strong></span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-book mr-2 text-red-600"></i>
+                            <span>학과: <strong>재난안전소방학과</strong></span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-red-600"></i>
+                            <span>이메일: <strong>leelmj1027@naver.com</strong></span>
+                        </div>
+                        <div class="flex items-center col-span-2">
+                            <i class="fas fa-phone-alt mr-2 text-red-600"></i>
+                            <span>연락처: <strong>010-4764-7830</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom-decoration flex justify-end items-center px-8">
+            <div class="text-white text-opacity-70 text-sm">2024 포트폴리오 프레젠테이션 | 1/5</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이민주 포트폴리오 - 자기소개</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8edf2 100%);
+            font-family: 'Noto Sans KR', sans-serif;
+            position: relative;
+        }
+        .top-border {
+            height: 12px;
+            background: linear-gradient(90deg, #e63946 0%, #c1121f 100%);
+        }
+        .title {
+            font-weight: 900;
+            color: #1d3557;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            color: #e63946;
+        }
+        .quote {
+            border-left: 4px solid #e63946;
+            padding-left: 1rem;
+            font-style: italic;
+            color: #457b9d;
+        }
+        .bottom-decoration {
+            height: 60px;
+            background-color: #1d3557;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .intro-card {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .intro-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        .intro-icon {
+            color: #e63946;
+            background-color: rgba(230, 57, 70, 0.1);
+            border-radius: 50%;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .animated-box {
+            animation: fadeIn 1.5s ease-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .intro-paragraph {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .firefighter-silhouette {
+            position: absolute;
+            bottom: 60px;
+            right: 0;
+            width: 300px;
+            opacity: 0.15;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="top-border"></div>
+        
+        <div class="p-12 flex flex-col flex-grow">
+            <div class="flex items-center mb-8 animated-box">
+                <i class="fas fa-user-circle text-4xl text-red-600 mr-4"></i>
+                <h1 class="title text-4xl">자기<span class="highlight">소개</span></h1>
+            </div>
+            
+            <div class="flex space-x-8 mb-12">
+                <div class="intro-card p-8 flex-grow z-10 animated-box" style="animation-delay: 0.2s">
+                    <div class="quote text-xl font-medium mb-6">
+                        "인명과 재산을 구하는 소방공무원이 되고 싶습니다"
+                    </div>
+                    
+                    <p class="intro-paragraph text-lg">
+                        안녕하세요! 저는 <span class="font-bold">건양대학교 재난안전소방학과</span>에 재학 중인 <span class="font-bold">이민주</span>입니다.
+                    </p>
+                    
+                    <p class="intro-paragraph text-lg">
+                        저는 <span class="highlight font-bold">소방공무원</span>이 되기 위해 끊임없이 노력하고 있습니다. 인명과 재산을 구하는 소방공무원이 되고 싶다는 생각이 든 뒤로, 건양대학교 재난안전소방학과에 입학하게 되었습니다.
+                    </p>
+                    
+                    <p class="intro-paragraph text-lg">
+                        항상 배우려는 자세로 새로운 경험을 받아들이며, 스스로 더 성장하려고 노력하고 있습니다. 현재 소방학과에 재학하면서 소방공무원이 되기 위해 자격증과 학업을 병행하여 열심히 공부하고 있습니다.
+                    </p>
+                </div>
+                
+                <div class="flex flex-col w-1/3 space-y-6">
+                    <div class="intro-card p-6 text-center animated-box" style="animation-delay: 0.4s">
+                        <div class="flex justify-center">
+                            <div class="intro-icon">
+                                <i class="fas fa-fire-extinguisher text-3xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">열정</h3>
+                        <p>소방공무원이 되기 위한 확고한 목표의식과 열정을 가지고 있습니다</p>
+                    </div>
+                    
+                    <div class="intro-card p-6 text-center animated-box" style="animation-delay: 0.6s">
+                        <div class="flex justify-center">
+                            <div class="intro-icon">
+                                <i class="fas fa-book text-3xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">학습</h3>
+                        <p>새로운 지식을 습득하고 경험을 쌓기 위해 항상 노력합니다</p>
+                    </div>
+                    
+                    <div class="intro-card p-6 text-center animated-box" style="animation-delay: 0.8s">
+                        <div class="flex justify-center">
+                            <div class="intro-icon">
+                                <i class="fas fa-certificate text-3xl"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">성취</h3>
+                        <p>자격증과 학업을 통해 전문성을 키워가고 있습니다</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <img src="https://cdn.pixabay.com/photo/2018/04/10/16/57/firefighter-3308004_1280.png" alt="소방관 실루엣" class="firefighter-silhouette">
+        
+        <div class="bottom-decoration flex justify-end items-center px-8">
+            <div class="text-white text-opacity-70 text-sm">2024 포트폴리오 프레젠테이션 | 2/5</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이민주 포트폴리오 - 프로젝트 경험</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8edf2 100%);
+            font-family: 'Noto Sans KR', sans-serif;
+            position: relative;
+        }
+        .top-border {
+            height: 12px;
+            background: linear-gradient(90deg, #e63946 0%, #c1121f 100%);
+        }
+        .title {
+            font-weight: 900;
+            color: #1d3557;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            color: #e63946;
+        }
+        .bottom-decoration {
+            height: 60px;
+            background-color: #1d3557;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .project-card {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        .project-icon {
+            background-color: rgba(230, 57, 70, 0.1);
+            color: #e63946;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+        }
+        .card-header {
+            border-bottom: 2px solid #f1f1f1;
+        }
+        .project-img {
+            height: 180px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+        .tag {
+            background-color: #457b9d;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="top-border"></div>
+        
+        <div class="p-12 flex flex-col flex-grow">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-tasks text-4xl text-red-600 mr-4"></i>
+                <h1 class="title text-4xl">프로젝트 <span class="highlight">경험</span></h1>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-8 h-full">
+                <!-- 2023 캡스톤 프로젝트 -->
+                <div class="project-card p-6 flex flex-col">
+                    <div class="card-header flex items-center pb-4 mb-4">
+                        <div class="project-icon">
+                            <i class="fas fa-car-battery text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">2023 캡스톤 경진대회</h3>
+                            <div class="flex mt-2">
+                                <span class="tag bg-red-600">전기차 안전</span>
+                                <span class="tag">소방공학</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <img src="https://www.firehouse.com/vehicles/apparatus/article/21257836/electrification-comes-to-fire-apparatus-firehouse" alt="전기차 배터리 안전장치 개념도" class="project-img w-full" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x300?text=전기자동차+배터리+안전장치';">
+                    </div>
+                    
+                    <div class="flex-grow">
+                        <h4 class="font-bold text-lg mb-2">전기자동차 배터리 사출장치 논문</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>전기차 화재 시 배터리 자동 분리 시스템 설계</li>
+                            <li>화재 발생 시 위험요소 최소화를 위한 메커니즘 개발</li>
+                            <li>고온 환경에서 작동하는 센서 연동 시스템 구현</li>
+                            <li>화재 확산 방지 및 긴급 대응 시간 확보 목표</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="flex justify-end mt-4">
+                        <div class="text-sm text-gray-500 italic">완료: 2023년</div>
+                    </div>
+                </div>
+                
+                <!-- 2024 캡스톤 프로젝트 -->
+                <div class="project-card p-6 flex flex-col">
+                    <div class="card-header flex items-center pb-4 mb-4">
+                        <div class="project-icon">
+                            <i class="fas fa-child text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800">2024 캡스톤 경진대회</h3>
+                            <div class="flex mt-2">
+                                <span class="tag bg-blue-600">어린이 안전</span>
+                                <span class="tag">교통안전</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2019/09/04/13/08/school-4451538_1280.jpg" alt="어린이 보호구역 안전장치" class="project-img w-full" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x300?text=어린이+보호구역+안전장치';">
+                    </div>
+                    
+                    <div class="flex-grow">
+                        <h4 class="font-bold text-lg mb-2">어린이 보호구역 안전장치 논문</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>신호등과 센서를 활용한 안전 시스템 개발</li>
+                            <li>어린이 보호구역 내 차량 과속 방지 시스템 설계</li>
+                            <li>위험 상황 자동 감지 및 경고 메커니즘 구현</li>
+                            <li>교통안전과 재난예방을 결합한 통합 솔루션</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="flex justify-end mt-4">
+                        <div class="text-sm text-gray-500 italic">진행 중: 2024년</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom-decoration flex justify-end items-center px-8">
+            <div class="text-white text-opacity-70 text-sm">2024 포트폴리오 프레젠테이션 | 3/5</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이민주 포트폴리오 - 자격증</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8edf2 100%);
+            font-family: 'Noto Sans KR', sans-serif;
+            position: relative;
+        }
+        .top-border {
+            height: 12px;
+            background: linear-gradient(90deg, #e63946 0%, #c1121f 100%);
+        }
+        .title {
+            font-weight: 900;
+            color: #1d3557;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            color: #e63946;
+        }
+        .bottom-decoration {
+            height: 60px;
+            background-color: #1d3557;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .cert-card {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: auto;
+        }
+        .cert-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        .cert-icon {
+            font-size: 64px;
+            margin-bottom: 1rem;
+        }
+        .cert-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+        .cert-obtained {
+            background-color: #2a9d8f;
+            color: white;
+        }
+        .cert-progress {
+            background-color: #e9c46a;
+            color: #333;
+        }
+        .progress-bar {
+            height: 8px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            overflow: auto;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #e63946;
+        }
+        .cert-detail-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(230, 57, 70, 0.1);
+            border-radius: 50%;
+            color: #e63946;
+            margin-right: 1rem;
+        }
+        .wave-decoration {
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%231d3557" fill-opacity="0.1" d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,176C672,181,768,139,864,122.7C960,107,1056,117,1152,128C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="top-border"></div>
+        
+        <div class="p-12 flex flex-col flex-grow">
+            <div class="flex items-center mb-8">
+                <i class="fas fa-certificate text-4xl text-red-600 mr-4"></i>
+                <h1 class="title text-4xl">자격증 & <span class="highlight">전문역량</span></h1>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-10 h-full">
+                <!-- 소방설비기사(전기) 카드 -->
+                <div class="cert-card p-8 flex flex-col">
+                    <span class="cert-badge cert-progress">준비중</span>
+                    
+                    <div class="flex justify-center mb-6">
+                        <i class="fas fa-bolt cert-icon text-yellow-500"></i>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-center mb-4">소방설비기사 (전기)</h3>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg mb-6">
+                        <p class="text-gray-700 mb-4">소방전기시설의 설계, 시공, 감리, 점검 및 유지·관리에 관한 전문 기술자격</p>
+                        <div class="flex items-center mb-2">
+                            <span class="text-sm font-semibold mr-2">준비 진행도</span>
+                            <span class="text-sm font-bold text-red-600">65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <div class="cert-detail-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">필기시험 준비중</h4>
+                                <p class="text-sm text-gray-600">전기이론, 전기기기, 소방관련법규, 소방전기시설의 구조 및 원리 등</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="cert-detail-icon">
+                                <i class="fas fa-calendar"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">취득 목표</h4>
+                                <p class="text-sm text-gray-600">2024년 내 필기시험 합격 목표</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- BIM 자격증 카드 -->
+                <div class="cert-card p-8 flex flex-col">
+                    <span class="cert-badge cert-obtained">취득 완료</span>
+                    
+                    <div class="flex justify-center mb-6">
+                        <i class="fas fa-cube cert-icon text-blue-500"></i>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold text-center mb-4">BIM (Building Information Modeling)</h3>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg mb-6">
+                        <p class="text-gray-700">건축물의 설계, 시공, 유지관리 등 전 생애주기 동안 발생하는 정보를 통합 및 관리하는 기술</p>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <div class="cert-detail-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">활용 역량</h4>
+                                <p class="text-sm text-gray-600">3D 모델링, 건축 시뮬레이션, 도면 작성 및 분석</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="cert-detail-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">소방안전 분야 활용</h4>
+                                <p class="text-sm text-gray-600">소방시설 설계 및 화재 시뮬레이션에 BIM 기술 적용</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="cert-detail-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">추가 역량 개발</h4>
+                                <p class="text-sm text-gray-600">소방설비와 BIM을 결합한 통합 안전 시스템 설계 역량 개발 중</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="wave-decoration"></div>
+        
+        <div class="bottom-decoration flex justify-end items-center px-8">
+            <div class="text-white text-opacity-70 text-sm">2024 포트폴리오 프레젠테이션 | 4/5</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이민주 포트폴리오 - 미래 목표</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8edf2 100%);
+            font-family: 'Noto Sans KR', sans-serif;
+            position: relative;
+        }
+        .top-border {
+            height: 12px;
+            background: linear-gradient(90deg, #e63946 0%, #c1121f 100%);
+        }
+        .title {
+            font-weight: 900;
+            color: #1d3557;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            color: #e63946;
+        }
+        .bottom-decoration {
+            height: 60px;
+            background-color: #1d3557;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .goal-card {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .goal-icon {
+            color: #e63946;
+            background-color: rgba(230, 57, 70, 0.1);
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .timeline-container {
+            position: relative;
+        }
+        .timeline-line {
+            position: absolute;
+            top: 80px;
+            left: 40px;
+            width: 85%;
+            height: 4px;
+            background-color: #1d3557;
+            z-index: 0;
+        }
+        .timeline-node {
+            position: relative;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border: 4px solid #e63946;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+            color: #e63946;
+        }
+        .timeline-content {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        .quote {
+            border-left: 4px solid #e63946;
+            padding-left: 1rem;
+            font-style: italic;
+        }
+        .firefighter-bg {
+            position: absolute;
+            bottom: 60px;
+            right: 0;
+            height: 250px;
+            opacity: 0.15;
+            z-index: 0;
+            transform: scaleX(-1);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="top-border"></div>
+        
+        <div class="p-12 flex flex-col flex-grow">
+            <div class="flex items-center mb-8">
+                <i class="fas fa-flag-checkered text-4xl text-red-600 mr-4"></i>
+                <h1 class="title text-4xl">미래 <span class="highlight">목표</span></h1>
+            </div>
+            
+            <div class="flex space-x-8 mb-8">
+                <div class="goal-card p-6 w-1/3">
+                    <div class="flex justify-center">
+                        <div class="goal-icon">
+                            <i class="fas fa-quote-left text-3xl"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="quote text-lg">
+                        <p class="mb-3">"앞으로 소방설비기사 자격증을 취득하고 소방공무원 시험에 합격해 사람들을 도울 수 있는 소방공무원이 되고 싶습니다."</p>
+                        <p class="text-right font-bold">- 이민주</p>
+                    </div>
+                </div>
+                
+                <div class="goal-card p-6 w-2/3 flex flex-col">
+                    <h2 class="text-xl font-bold mb-4">나의 소방공무원 로드맵</h2>
+                    
+                    <div class="flex items-center space-x-4 mb-3">
+                        <div class="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-bold">현재</div>
+                        <div class="text-gray-400">|</div>
+                        <div class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-bold">단기 목표</div>
+                        <div class="text-gray-400">|</div>
+                        <div class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-bold">장기 목표</div>
+                    </div>
+                    
+                    <div class="timeline-container flex-grow">
+                        <div class="timeline-line"></div>
+                        
+                        <div class="flex justify-between">
+                            <div class="flex flex-col items-center w-1/4">
+                                <div class="timeline-node bg-red-100">
+                                    <i class="fas fa-book text-2xl"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-bold mb-1">학업 및 역량 개발</h3>
+                                    <p class="text-sm">재난안전소방학과에서 전문지식 습득 및 자격증 준비</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col items-center w-1/4">
+                                <div class="timeline-node bg-blue-100">
+                                    <i class="fas fa-certificate text-2xl"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-bold mb-1">소방설비기사 취득</h3>
+                                    <p class="text-sm">전기분야 소방설비기사 자격증 취득</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col items-center w-1/4">
+                                <div class="timeline-node bg-blue-100">
+                                    <i class="fas fa-file-alt text-2xl"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-bold mb-1">공무원 시험 합격</h3>
+                                    <p class="text-sm">소방공무원 시험 준비 및 합격</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col items-center w-1/4">
+                                <div class="timeline-node bg-green-100">
+                                    <i class="fas fa-users text-2xl"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="font-bold mb-1">전문 소방관으로 성장</h3>
+                                    <p class="text-sm">인명 구조 및 재난 안전 전문가로 발전</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="goal-card p-6">
+                <h3 class="text-xl font-bold mb-4">핵심 실행 계획</h3>
+                
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="flex">
+                        <div class="mr-4 text-red-600">
+                            <i class="fas fa-graduation-cap text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">지속적인 자기 개발</h4>
+                            <p class="text-sm text-gray-700">소방공무원으로서 필요한 지식과 기술을 끊임없이 습득하고 발전시켜 나갑니다.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex">
+                        <div class="mr-4 text-red-600">
+                            <i class="fas fa-shield-alt text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">책임감 있는 태도</h4>
+                            <p class="text-sm text-gray-700">소방공무원으로서 높은 책임감과 윤리의식을 바탕으로 업무에 임하겠습니다.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex">
+                        <div class="mr-4 text-red-600">
+                            <i class="fas fa-hands-helping text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">시민 안전에 기여</h4>
+                            <p class="text-sm text-gray-700">사람들의 안전을 지키는 든든한 존재로서 사회에 기여하겠습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <img src="https://cdn.pixabay.com/photo/2017/07/06/14/48/firefighter-2478111_1280.jpg" alt="소방관 실루엣" class="firefighter-bg">
+        
+        <div class="bottom-decoration flex justify-end items-center px-8">
+            <div class="text-white text-opacity-70 text-sm">2024 포트폴리오 프레젠테이션 | 5/5</div>
+        </div>
+    </div>
+</body>
+</html>
